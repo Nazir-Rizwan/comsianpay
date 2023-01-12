@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/comsianpay/static/css/main.1916fd98.css",
+    "main.js": "/comsianpay/static/js/main.3f8771d6.js",
+    "index.html": "/comsianpay/index.html",
+    "main.1916fd98.css.map": "/comsianpay/static/css/main.1916fd98.css.map",
+    "main.3f8771d6.js.map": "/comsianpay/static/js/main.3f8771d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1916fd98.css",
+    "static/js/main.3f8771d6.js"
+  ]
+}
