@@ -1,0 +1,59 @@
+.start{
+    width: 30%;
+    height: 60vh;
+    position: absolute;
+
+    top: 17%;
+    left: 35%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgb(116,119,114);
+   
+
+}
+.start h1{
+    text-align: center;
+    top: 10vh;
+    position: relative;
+    color: blue;
+    
+}
+
+.center{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30%;
+    left: 5%;
+   
+}
+.center button{
+    width: 70%;
+    height: 5vh;
+    position: relative;
+    left: 40px;
+      font-size: 18px;
+    margin-top: 10%;
+    background:none ;
+    color: #3498db;
+    cursor: pointer;
+    border:1px solid #3498db;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    body{
+      
+      position: absolute;
+    }
+    .start{
+        width: 100vw;
+      left: 0;
+        height: 100vh;
+        position: relative;
+    }
+}
+    

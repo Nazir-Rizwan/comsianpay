@@ -1,0 +1,97 @@
+.main{
+   background:linear-gradient(to top left,#f3ebf6 , #e3dde6);
+    
+  width: 100%;
+  height: 100vh;
+
+  
+}
+
+.content{
+    width: 30%;
+    height: 60vh;
+    position: relative;
+    margin:0  auto;
+    top: 17%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgb(116,119,114);
+
+}
+.content h1{
+    text-align: center;
+    top: 10vh;
+    position: relative;
+    
+}
+.value{
+    width: 60%;
+   
+    position: relative;
+    margin: 0 auto;
+    top: 15vh;
+    
+}
+.value p{
+    padding: 15px;
+}
+.value p input{
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: medium;
+    outline:none ;
+    border-bottom: 2px solid  black;
+left :-25px;
+position: relative;
+
+}
+
+
+.value p button{
+    width: 70%;
+    height: 5vh;
+    position: relative;
+    left: 40px;
+      font-size: 18px;
+    
+    background:none ;
+    color: #3498db;
+    cursor: pointer;
+    border:1px solid #3498db;
+    border-radius: 10px;
+    transition: 0.8s;
+
+    
+
+}
+.value p button:hover{
+   color: #fff;
+   background-color: #3498db;
+     
+} 
+
+
+@media only screen and (max-width: 500px) {
+    
+    body{
+      
+      position: absolute;
+    }
+    .content{
+        width: 100vw;
+      left: 0;
+        height: 50vh;
+        position: relative;
+    }
+
+    .value p input{
+        width: 70vw;
+        height: 5vh;
+    
+    position: relative;
+    
+    }
+}
